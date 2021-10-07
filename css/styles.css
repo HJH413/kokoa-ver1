@@ -7,6 +7,7 @@
 @import "components/status-bar.css";
 @import "components/nav-bar.css";
 @import "components/screen-header.css";
+@import "components/friends.css";
 
 /*screens*/
 
@@ -15,5 +16,5 @@
 
 body {
      font-family: 'Open Sans', sans-serif  ;
-     height: 100vh;
+     color: #2e363e;
 }
