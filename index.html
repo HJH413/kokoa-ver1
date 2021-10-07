@@ -1,10 +1,11 @@
 <!doctype html>
 <html lang="ko">
     <head>
+        <link rel="stylesheet" href="css/styles.css">
         <meta charset="UTF-8">
         <meta name="viewport"
               content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-        <title>Welcome to Kong Talk</title>
+        <title>Welcome to KongTalk</title>
     </head>
     <body>
         <div class="status-bar">
@@ -17,10 +18,26 @@
             </div>
             <div class="status-bar__column">
                 <span>100%</span>
-                <i class="fas fa-battery-full"></i>
+                <i class="fas fa-battery-full fa-lg"></i>
                 <i class="fas fa-bolt"></i>
             </div>
         </div>
+
+        <header class="welcome-header">
+            <h1 class="welcome-header__tittle"> Welcome to KongTalk </h1>
+            <p class="welcome-header__text">
+                if you have a Kong Account, log in with your email or phone number.
+            </p>
+        </header>
+
+        <form id="login-form">
+            <input type="text" placeholder="Email or phone number">
+            <input type="password" placeholder="Password">
+            <input type="submit" value="Log in">
+            <input type="submit" value="Sign up">
+            <a href="#">Find Kong Account or Password</a>
+        </form>
+
         <script src="https://kit.fontawesome.com/cc4470dc85.js"
                 crossorigin="anonymous">
         </script>
