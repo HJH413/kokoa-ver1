@@ -159,9 +159,9 @@
    outline: none;
 }
 
-.reply: .reply_column:first-child,
-.reply: .fa-smile-wink,
-.reply: button {
+.reply .reply_column:first-child,
+.reply .fa-smile-wink,
+.reply button {
    transition: opacity 3s ease-in-out;
 }
 
